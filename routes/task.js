@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router();
 const {validarJWT} = require('../middlewares/validar-token');
-const { listarTasks, crearTask, actualizarTask, eliminarTask} = require('../Controllers/task.js');
+const { listarTasks, crearTask, actualizarTask, eliminarTask} = require('../Controllers/Task');
 
 router.use(validarJWT)
 
