@@ -4,7 +4,7 @@ const listaUsuarios = document.querySelector('#lista-usuarios');
 const chats = document.querySelector('#chats-body');
 const private = document.querySelector('#private');
 
-Socket.on('usuarios-activos', (payload) => {
+socket.on('usuarios-activos', (payload) => {
     let usersHtml = ''
     payload.forEach(element => {
         if(socket.id === element)
