@@ -1,5 +1,3 @@
-const { Socket } = require("socket.io");
-
 const txtUid = document.querySelector('#txtUid');
 const txtMensaje = document.querySelector('#txtMensaje');
 const listaUsuarios = document.querySelector('#lista-usuarios');
